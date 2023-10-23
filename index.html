@@ -15,44 +15,77 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-
-    <base href="https://emadabdelhamied.github.io/makanvi/">
     <!-- <base href="/"> -->
+    <!-- <base href="https://midoberber.github.io/test_makanvi/"> -->
+    <base href="https://emadabdelhamied.github.io/makanvi/">
+    <link rel="stylesheet" type="text/css" href="./style.css">
     <meta charset="UTF-8">
     <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-    <meta name="description" content="A new Flutter project.">
-
+    <meta name="description" content="Your Innovative Real Estate Partner.">
+    <meta name="version" content="1.0.1" />
     <!-- iOS meta tags & icons -->
-
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="makanvi_web">
+    <meta name="apple-mobile-web-app-title" content="Makanvi">
     <link rel="apple-touch-icon" href="icons/Icon-192.png">
+    <!-- Google Integration -->
+
     <meta name="google-signin-client_id"
-        content="324895378902-lfpl390hh88g7au7k54bpi7kpl6olj7s.apps.googleusercontent.com">
+        content="324895378902-6gk78cquoecgqffkfdths94i8oq7mufh.apps.googleusercontent.com" />
+
+    <!-- Apple Integration -->
+
+    <script type="text/javascript"
+        src="https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js"></script>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="icon" type="image/png" href="./favicon.png" />
 
-    <title>makanvi_web</title>
-    <link rel="manifest" href="manifest.json">
-    <script type="text/javascript">
-        window.flutterWebRenderer = "html";
-    </script>
+    <title>Makanvi</title>
+    <link rel="manifest" href="./manifest.json">
+    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
     <script>
         // The value below is injected by flutter build, do not touch.
-        var serviceWorkerVersion = "2388864724";
+        var serviceWorkerVersion = "1000437944";
     </script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css' rel='stylesheet' />
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB38_1XJa_Yy92TyTfUCpuRqSCc9hWTpBQ"></script>
     <!-- This script adds the flutter initialization JS code -->
-    <script src="flutter.js" defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB38_1XJa_Yy92TyTfUCpuRqSCc9hWTpBQ"></script>
+    <script src="./flutter.js" defer></script>
 </head>
 
 <body>
+
+    <!-- <img src="img/logo.png" class="center" style="    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)" /> -->
+    <div class="center">
+        <div class="sk-chase">
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+
+    <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-analytics.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-firestore.js"></script>
     <script type="module">
         // Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-analytics.js";
+        // import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
+        // import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-analytics.js";
         // TODO: Add SDKs for Firebase products that you want to use
         // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -72,6 +105,23 @@
         const app = initializeApp(firebaseConfig);
         const analytics = getAnalytics(app);
     </script>
+    <script src="main.dart.js" type="application/javascript"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            // Service workers are supported. Use them.
+            window.addEventListener('load', function () {
+                // ADD THIS LINE
+                navigator.serviceWorker.register('/firebase-messaging-sw.js');
+
+                // Wait for registration to finish before dropping the <script> tag.
+                // Otherwise, the browser will load the script multiple times,
+                // potentially different versions.
+                var serviceWorkerUrl = 'flutter_service_worker.js?v=' + serviceWorkerVersion;
+
+                //  ...
+            });
+        }
+    </script>
     <script>
         window.addEventListener('load', function (ev) {
             // Download main.dart.js
@@ -87,6 +137,7 @@
             });
         });
     </script>
+
 </body>
 
 </html>

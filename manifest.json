@@ -1,11 +1,11 @@
 {
-    "name": "makanvi_web",
-    "short_name": "makanvi_web",
+    "name": "Makanvi",
+    "short_name": "Makanvi",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Your Innovative Real Estate Partner.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

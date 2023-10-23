@@ -1,6 +1,8 @@
-<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M12.9125 20.7412H5.03662" stroke="white" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M16.4258 8.62559H24.3017" stroke="white" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M10.9079 8.55782C10.9079 6.93825 9.58516 5.625 7.95393 5.625C6.3227 5.625 5 6.93825 5 8.55782C5 10.1774 6.3227 11.4906 7.95393 11.4906C9.58516 11.4906 10.9079 10.1774 10.9079 8.55782Z" stroke="white" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M25.0001 20.6922C25.0001 19.0726 23.6785 17.7594 22.0472 17.7594C20.415 17.7594 19.0923 19.0726 19.0923 20.6922C19.0923 22.3118 20.415 23.625 22.0472 23.625C23.6785 23.625 25.0001 22.3118 25.0001 20.6922Z" stroke="white" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.95801 7.3916H6.04134" stroke="#374151" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.625 7.3916H16.0417" stroke="#374151" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3.95801 14.0582H10.208" stroke="#141414" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14.792 14.0582H16.042" stroke="#141414" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.208 7.3916C10.208 8.42714 9.36854 9.2666 8.33301 9.2666C7.29747 9.2666 6.45801 8.42714 6.45801 7.3916C6.45801 6.35607 7.29747 5.5166 8.33301 5.5166C9.36854 5.5166 10.208 6.35607 10.208 7.3916Z" stroke="#141414" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14.375 14.0581C14.375 15.0936 13.5355 15.9331 12.5 15.9331C11.4645 15.9331 10.625 15.0936 10.625 14.0581C10.625 13.0226 11.4645 12.1831 12.5 12.1831C13.5355 12.1831 14.375 13.0226 14.375 14.0581Z" stroke="#141414" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
